@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+
+}
+
+
+img {
+    display: block;
+    max-width:374px;
+    max-height:209px;
+    width: auto;
+    height: auto;
+  }
+
+.container{
+    width: 400px;
+}
+
+
+.fa-solid, .container .card #music-list ul li {
+    cursor: pointer;
+}
+
+
+#progress .times, .card-footer, #volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#volume-container i{
+    margin-right:10px;
+}
